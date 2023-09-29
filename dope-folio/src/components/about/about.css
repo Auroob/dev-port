@@ -1,0 +1,28 @@
+.about {
+    min-height: 100vh;
+    position: relative;
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0.5;
+    height: fit-content;
+  }
+
+  .about-image {
+    height: 279px;
+    width: 278px;
+  }
+
+    .about-image img {
+        height: 279px;
+        left: 0;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        width: 278px;
+    }
+  
+}
