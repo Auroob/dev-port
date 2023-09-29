@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import './main.scss';
-import BackgroundImage from './components/backgroundImage';
+import './App.scss';
+//import BackgroundImage from './components/background/backgroundImage';
+import { Introduction } from './components/introduction/introduction';
+import { Projects } from './components/projects/projects';
 
 function App() {
   return (
     <div className="App">
-      <BackgroundImage />
+      <Introduction />
+      <Projects />
     </div>
   );
 }

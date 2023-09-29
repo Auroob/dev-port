@@ -1,0 +1,15 @@
+.intro {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .intro-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0.5;
+    height: fit-content;
+  }
+  
+  

@@ -1,0 +1,60 @@
+@import '@fontsource/jost';
+
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  src: local('Jost'), local('Jost-Regular'), url('https://fonts.gstatic.com/s/jost/v5/97UD3MXhL1V4-1-sfH-8dCkZvY9x.woff2') format('woff2'), url('https://fonts.gstatic.com/s/jost/v5/97UD3MXhL1V4-1-sfH-8dCkZvY5x.woff') format('woff');
+}
+
+.App {
+    font-family: 'Jost', sans-serif;
+    --text-color-white: #EFEDED;
+    --text-color-black: #1F1F1F; 
+    --column-margin-top: 4em;
+  }
+  
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+  background-image: url(images/Islamabad-background.jpg);
+}
+  
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--text-color-white);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--text-color-white);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--text-color-white);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--text-color-white);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
