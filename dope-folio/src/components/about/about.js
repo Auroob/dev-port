@@ -12,7 +12,7 @@ export const About = () => {
                 </div>
                 <div className="about-text">
                     <h2>About Me</h2>
-                    <p>{aboutData.content}</p>
+                    <p style={{color: 'var(--text-color-white)'}}>{aboutData.content}</p>
                 </div>
             </div>
         </div>

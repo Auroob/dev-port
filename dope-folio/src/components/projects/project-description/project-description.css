@@ -1,23 +1,46 @@
-.intro {
-    min-height: 100vh;
+.project-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 35vw;
+    margin-top: 2em;
+    transition: all 2000ms ease-in-out;
   }
   
-  .intro-description {
-    background-color: --var(text-color-white);
+  .project-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    flex: 0.5;
+    flex: 1;
     height: fit-content;
+    padding: 1.5em;
   }
   
-  .image {
-    height: 340px;
-    left: 0;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    width: 340px;
+  .project-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
   }
 
+  .project-image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .project-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1.25em;
+  }
+
+  .project-about p {
+    color: var(--text-color-black);
+  }

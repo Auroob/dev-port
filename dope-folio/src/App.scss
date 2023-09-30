@@ -9,7 +9,8 @@
 .App {
     font-family: 'Jost', sans-serif;
     --text-color-white: #EFEDED;
-    --text-color-black: #1F1F1F; 
+    --text-color-black: #2a2727; 
+    --text-color-grey: #514747;
     --column-margin-top: 4em;
   }
   
@@ -33,22 +34,22 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
-  font-weight: 400;
-  letter-spacing: 0.1em;
+  font-size: 3em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   color: var(--text-color-white);
   margin-top: 0;
   margin-bottom: 0.5em;
   line-height: normal;
+  align-self: center;
 }
 
 h4 {
-  font-size: 1.5em;
-  font-weight: 400;
-  letter-spacing: 0.1em;
-  color: var(--text-color-white);
-  margin-top: 0;
-  margin-bottom: 0.5em;
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-top: 0; 
+  margin-bottom: 0;
 }
 
 h5 {
@@ -62,10 +63,9 @@ h5 {
 }
 
 p {
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 1.075em;
+  font-weight: 300;
   letter-spacing: 0.01em;
-  color: var(--text-color-white);
   margin-top: 0;
   margin-bottom: 0.5em;
 }

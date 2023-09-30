@@ -5,18 +5,21 @@ import { ProjectDescription } from "./project-description/project-description";
 
 export const Projects = () => {
     return (
-        <div className="intro">
-            <div className="intro-description">
+        <div className="project">
+            <div className="project-list">
                 <h2>Projects I have worked on</h2>
                 {projectsData.map((project) => {
                     return (
-                        <ProjectDescription
-                            key={project.id}
-                            image={project.image}
-                            title={project.title}
-                            description={project.description}
-                            job={project.job}
+                        <div className="project-box">
+                            <ProjectDescription
+                                key={project.id}
+                                image={project.image}
+                                title={project.title}
+                                color={project.color}
+                                description={project.description}
+                                job={project.job}
                         />
+                        </div>
                     );
                 })}
             </div>
