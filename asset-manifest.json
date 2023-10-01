@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/dev-port/static/css/main.bd689233.css",
+    "main.js": "/dev-port/static/js/main.0ad1d0d7.js",
+    "static/js/787.2a260ad7.chunk.js": "/dev-port/static/js/787.2a260ad7.chunk.js",
+    "static/media/auroob-ahmad.png": "/dev-port/static/media/auroob-ahmad.4ada27f32582f0bf69fa.png",
+    "static/media/xnaut-illustration.png": "/dev-port/static/media/xnaut-illustration.220acdbb9e58319a8048.png",
+    "static/media/portfolio-illustration.png": "/dev-port/static/media/portfolio-illustration.d909120d478bd818e455.png",
+    "static/media/vr-illustration.png": "/dev-port/static/media/vr-illustration.3b9d8671af8132ecf6e4.png",
+    "static/media/slogr-illustration.png": "/dev-port/static/media/slogr-illustration.19e9f65467765917b0e2.png",
+    "static/media/breu-growth-illustration.png": "/dev-port/static/media/breu-growth-illustration.b94a4afd8693836911a0.png",
+    "static/media/Islamabad-background.jpg": "/dev-port/static/media/Islamabad-background.a0669f0b5bbe037c40ac.jpg",
+    "static/media/p2-illustration.png": "/dev-port/static/media/p2-illustration.b8f81228eae10122149e.png",
+    "static/media/commit-illustration.png": "/dev-port/static/media/commit-illustration.6c54375ebb0558e9330c.png",
+    "static/media/Auroob_Ahmad_Resume.pdf": "/dev-port/static/media/Auroob_Ahmad_Resume.dbcdde7c80845d0398a6.pdf",
+    "static/media/jost-latin-400-normal.woff": "/dev-port/static/media/jost-latin-400-normal.bf78ca0d8b0d850febec.woff",
+    "static/media/jost-latin-400-normal.woff2": "/dev-port/static/media/jost-latin-400-normal.3ee0e9b131b30b82441b.woff2",
+    "static/media/jost-latin-ext-400-normal.woff": "/dev-port/static/media/jost-latin-ext-400-normal.d574b85a11823948b812.woff",
+    "static/media/jost-latin-ext-400-normal.woff2": "/dev-port/static/media/jost-latin-ext-400-normal.4d7ae0b2f2addfdb042a.woff2",
+    "static/media/jost-cyrillic-400-normal.woff": "/dev-port/static/media/jost-cyrillic-400-normal.f5f75ae501dcc38693fa.woff",
+    "static/media/jost-cyrillic-400-normal.woff2": "/dev-port/static/media/jost-cyrillic-400-normal.6132b2e344b5a75d6bf9.woff2",
+    "index.html": "/dev-port/index.html",
+    "main.bd689233.css.map": "/dev-port/static/css/main.bd689233.css.map",
+    "main.0ad1d0d7.js.map": "/dev-port/static/js/main.0ad1d0d7.js.map",
+    "787.2a260ad7.chunk.js.map": "/dev-port/static/js/787.2a260ad7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd689233.css",
+    "static/js/main.0ad1d0d7.js"
+  ]
+}
