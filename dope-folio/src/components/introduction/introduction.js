@@ -14,7 +14,7 @@ export const Introduction = () => {
                     <a href="https://github.com/Auroob" target="blank">
                         <img src={introductionData.github} alt="Github" />
                     </a>
-                    <a href="" target="blank">
+                    <a href="mailto:auroobtoor98@gmail.com" target="blank">
                         <img src={introductionData.gmail} alt="Gmail" height="2.25rem"/>
                     </a>
                     <a href="https://www.linkedin.com/in/auroob/" target="blank">
