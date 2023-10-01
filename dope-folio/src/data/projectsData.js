@@ -3,6 +3,8 @@ import BreuGrowthIllustration from '../images/projects/breu-growth-illustration.
 import XNautIllustration from '../images/projects/xnaut-illustration.png';
 import P2Illustration from '../images/projects/p2-illustration.png';
 import VRIllustration from '../images/projects/vr-illustration.png';
+import PortfolioIllustration from '../images/projects/portfolio-illustration.png';
+import CommitIllustration from '../images/projects/commit-illustration.png';
 
 export const projectsData = [
     {
@@ -44,5 +46,21 @@ export const projectsData = [
         color: "#b7124b",
         description: "Android App with Air University Virtual FP Walkthrough",
         job: "SketcUp, Unity, C#"
+    },
+    {
+        id: 6,
+        image: PortfolioIllustration,
+        title: "Personal Web",
+        color: "#EBD238",
+        description: "My Personal Portfolio with my acheivements",
+        job: "React, JavaScript, SaSS"
+    },
+    {
+        id: 7,
+        image: CommitIllustration,
+        title: "commit-a-day ",
+        color: "#2A66EB",
+        description: "Automated Workflow for Github Contributions on a Lazy Day",
+        job: "Typescript, Yaml, Github Actions"
     }
 ]

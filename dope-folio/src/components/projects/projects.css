@@ -4,7 +4,6 @@
     align-items: center;
     min-height: 100vh;
     position: relative;
-    transition: 200s ease-in-out;
   }
   
   .project-list {
@@ -12,24 +11,35 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    flex: 0.5;
     height: fit-content;
-    width: 50vw;
+    max-width: 50vw;
+  }
+
+  .project-list a {
+    font-size: 1.25em;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    color: var(--text-color-link);
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    line-height: normal;
+  }
+
+  .project-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   .project-box{
     display: flex;
-    flex-wrap: wrap;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 50vw;
-  }
-
-  .project-box:nth-child(odd){
-    justify-content: right;
-  }
-
-  .project-box:nth-child(even){
-    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
 

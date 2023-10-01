@@ -11,6 +11,7 @@
     --text-color-white: #EFEDED;
     --text-color-black: #2a2727; 
     --text-color-grey: #514747;
+    --text-color-link: #2A66EB;
     --column-margin-top: 4em;
     background-image: url(images/Islamabad-background.jpg);
     background-size: cover;
@@ -62,6 +63,15 @@ h5 {
   margin-bottom: 0.5em;
   line-height: normal;
 }
+
+h6 {
+    font-size: 1.25em;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: var(--text-color-black);
+  }
 
 p {
   font-size: 1.075em;

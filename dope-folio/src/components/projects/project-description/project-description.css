@@ -1,22 +1,20 @@
 .project-description {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    position: relative;
-    width: 35vw;
     margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 25em;
+    height: 25em;
+    border-radius: 1.5em;
   }
 
   .project-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    flex: 1;
-    height: fit-content;
-    padding-left: 1em;
-    padding-right: 1em;
+    justify-content: center;
+    padding: 1em;
   }
   
   .project-image {
@@ -38,6 +36,10 @@
     justify-content: center;
     align-items: flex-start;
     margin-left: 1.25em;
+  }
+
+  .project-about h4 {
+    align-items: center;
   }
 
   .project-about p {
